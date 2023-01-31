@@ -1,0 +1,11 @@
+# All directories other than wp-content & php_client
+wp-admin/
+wp-includes/
+.vscode
+.htaccess
+readme.html
+/*.php
+
+# Node modules & vendor directories
+node_modules
+vendor

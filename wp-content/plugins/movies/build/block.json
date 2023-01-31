@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "movies/favorite-movie-quote",
+  "version": "0.1.0",
+  "title": "Favorite movie quote",
+  "category": "media",
+  "attributes": {
+    "favMovieQuote": {
+      "type": "string"
+    }
+  },
+  "icon": "editor-video",
+  "description": "A text field for your favorite movie quote.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "movies",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
